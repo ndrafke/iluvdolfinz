@@ -4,6 +4,7 @@ body {
 #root {
   max-width: 100%;
 }
+
 #home {
   height: 100vh;
   display: flex;
@@ -21,6 +22,31 @@ body {
   justify-content: center;
   background-color: black;
   color: aqua;
+}
+.stream-links {
+  display: flex;
+}
+#video {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: aqua;
+}
+#about {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: aqua;
+}
+.bio {
+  margin: 1.5rem;
+  color: hotpink;
 }
 #album-cover {
   height: 25rem;
