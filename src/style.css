@@ -1,0 +1,28 @@
+body {
+  background-color: aqua;
+}
+#root {
+  max-width: 100%;
+}
+#home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: aqua;
+}
+#listen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: aqua;
+}
+#album-cover {
+  height: 25rem;
+  width: 25rem;
+}
