@@ -1,3 +1,3 @@
-# iluvdolfnz (electronic music artist) basic host website
+# iluvdolfnz (electronic music artist) 
 
 Simple website using React.js and React Bootstrap to link to artist projects with embedded Spotify album.
