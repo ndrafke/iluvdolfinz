@@ -1,24 +1,35 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import ReactDOM, { hydrate, render } from "react-dom";
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigation from './components/Navigation.js'
+import Navigation from './components/Navigation.js';
+import MountEffect from './components/MountEffect.js';
 
 
+function Iluvdolfinz (){
 
-class Iluvdolfinz extends React.Component{
+   const [isLoading, setIsLoading] = useState(true);
 
+   useEffect(() => {
+       let timer = setTimeout(() => setIsLoading(false), 1500);
+        return() => {
+            clearTimeout(timer);
+        }
 
-
-
-    render(){
-        return(
-            <div>
+   }, []); 
+   
+    return(
+          isLoading ? <MountEffect/> : 
+            <div id="full">
                 <Navigation />
             <section id="home">
-            <h5>New album, "Brain Slop" now available to stream!</h5>    
-           <a href="https://open.spotify.com/album/6lhLVV61rnepb4Kj5gJRej?si=8kGZLk5XQcGGysyq7tya1w&dl_branch=1" target="_blank"> <img id="album-cover" src="https://i.imgur.com/07If8aZ.jpg" /></a>
+                <h5>New album, "Brain Slop" now available to stream!</h5>
+            <div id="album-container">
+           <a href="https://open.spotify.com/album/6lhLVV61rnepb4Kj5gJRej?si=8kGZLk5XQcGGysyq7tya1w&amp;dl_branch=1" target="_blank"> <img id="album-cover" alt="iluvdolfinz brain slop album art" src="https://i.imgur.com/07If8aZ.jpg"></img></a>
+           </div>
+           <p>Click to open in Spotify</p>
             </section>
+
             <section id="listen">
             <iframe src="https://open.spotify.com/embed/album/6lhLVV61rnepb4Kj5gJRej" width="90%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             <h6>Other Streaming Options:</h6>
@@ -38,7 +49,7 @@ class Iluvdolfinz extends React.Component{
             </div>
         )
     }
-}
+
 ReactDOM.render(<Iluvdolfinz/>, document.getElementById("root"));
 const rootElement = document.getElementById("root");
 if (rootElement.hasChildNodes()) {

@@ -16,6 +16,8 @@ a {
   font-family: futura;
 }
 #home {
+  animation-name: load;
+  animation-duration: 0.5s;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,6 +25,22 @@ a {
   justify-content: center;
   background-color: black;
   color: aqua;
+  font-family: futura;
+}
+#album-container {
+  height: 50vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#home p {
+  font-size: 0.9rem;
+}
+#album-cover {
+  height: 55rem;
+  width: 55rem;
 }
 #listen {
   height: 100vh;
@@ -58,7 +76,27 @@ a {
   margin: 1.5rem;
   color: hotpink;
 }
-#album-cover {
-  height: 25rem;
-  width: 25rem;
+
+@keyframes load {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 575px) {
+  #home p {
+    font-size: 0.8rem;
+  }
+  #home h5 {
+    font-size: 0.8rem;
+  }
+  #listen h6 {
+    font-size: 0.8rem;
+  }
+  #about h5,
+  p {
+    font-size: 0.8rem;
+  }
 }

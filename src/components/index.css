@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+}
+img {
+  transform: scale(0.3);
+}
+#brains {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#brain {
+  animation-name: brain;
+  animation-duration: 2.5s;
+  position: relative;
+}
+@keyframes brain {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+#brain2 {
+  animation-name: brain2;
+  animation-duration: 2.5s;
+  position: relative;
+}
+@keyframes brain2 {
+  0% {
+    right: -100%;
+  }
+
+  100% {
+    right: 100%;
+  }
+}
+#brain3 {
+  animation-name: brain3;
+  animation-duration: 2.5s;
+  position: relative;
+}
+@keyframes brain3 {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+#brain4 {
+  animation-name: brain4;
+  animation-duration: 2.5s;
+  position: relative;
+}
+@keyframes brain4 {
+  0% {
+    right: -100%;
+  }
+
+  100% {
+    right: 100%;
+  }
+}
+#brain5 {
+  animation-name: brain3;
+  animation-duration: 2.5s;
+  position: relative;
+}
+@keyframes brain5 {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
