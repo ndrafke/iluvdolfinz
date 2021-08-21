@@ -28,7 +28,7 @@ a {
   font-family: futura;
 }
 #album-container {
-  height: 30vh;
+  height: 50vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -36,6 +36,10 @@ a {
   justify-content: space-around;
   margin: 0 auto;
   text-align: center;
+}
+#home h6 {
+  text-align: center;
+  margin-top: 2rem;
 }
 #home p {
   font-size: 0.9rem;
@@ -48,7 +52,7 @@ a {
 #album-cover {
   height: auto;
   width: 65rem;
-  margin: 0px;
+  margin: 0;
   display: inline;
   max-width: 100%;
 }
@@ -57,16 +61,18 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   background-color: black;
   color: aqua;
 }
 .stream-links {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin: 0 auto;
   text-align: center;
+  width: 50vw;
+  height: auto;
 }
 #video {
   height: 100vh;
@@ -135,12 +141,21 @@ a {
   border-radius: 50%;
 }
 #amazon-logo {
+  height: 9rem;
+  width: 8rem;
+  display: inline;
+  max-width: 100%;
+  height: auto;
+  margin: 5px auto;
+}
+#deezer-logo {
   height: 8rem;
   width: 8rem;
   display: inline;
   max-width: 100%;
   height: auto;
   margin: 5px auto;
+  border-radius: 50%;
 }
 #fb-logo {
   height: 6rem;

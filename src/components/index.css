@@ -3,6 +3,7 @@ body {
 }
 img {
   transform: scale(0.3);
+  margin: -1rem;
 }
 #brains {
   display: flex;

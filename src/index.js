@@ -23,9 +23,9 @@ function Iluvdolfinz (){
             <div id="full">
                 <Navigation />
             <section id="home">
-                <h6>Full-length album, "Brain Slop" now available to stream!</h6>
+                <h6>Iluvdolfinz' full-length album, "Brain Slop" now available to stream!</h6>
             <div id="album-container">
-           <a href="https://open.spotify.com/album/6lhLVV61rnepb4Kj5gJRej?si=8kGZLk5XQcGGysyq7tya1w&amp;dl_branch=1" target="_blank"> <img id="album-cover" alt="iluvdolfinz brain slop album art" src="https://i.imgur.com/07If8aZ.jpg"></img>
+           <a href="https://open.spotify.com/album/6lhLVV61rnepb4Kj5gJRej?si=8kGZLk5XQcGGysyq7tya1w&amp;dl_branch=1" target="_blank"> <img id="album-cover" alt="iluvdolfinz brain slop album art" src="https://i.imgur.com/07If8aZ.jpg?2"></img>
            </a>
            </div>
            <a href="https://open.spotify.com/album/6lhLVV61rnepb4Kj5gJRej?si=8kGZLk5XQcGGysyq7tya1w&amp;dl_branch=1" target="_blank"><p>Click to open in Spotify</p></a>
@@ -34,7 +34,9 @@ function Iluvdolfinz (){
 
             <section id="listen">
               
-            <iframe src="https://open.spotify.com/embed/album/6lhLVV61rnepb4Kj5gJRej" width="90%" height="460" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/album/6lhLVV61rnepb4Kj5gJRej" width="90%" height="460" frameBorder="0" allowtransparency="true" allow="encrypted-media"
+            style={{marginTop: "1rem"}}
+            ></iframe>
             
             <hr></hr>
             <h6>Other Streaming Options:</h6>
@@ -48,6 +50,9 @@ function Iluvdolfinz (){
                 <div>
                 <a href="https://music.amazon.com/artists/B08XWLSKY8/iluvdolfinz" target="_blank"><img id="amazon-logo" src="https://image.pngaaa.com/951/604951-small.png" alt="amazon music logo"></img></a> 
                 </div> 
+                <div>
+                <a href="https://www.deezer.com/us/album/211667902" target="_blank"><img id="deezer-logo" src="https://www.pngkit.com/png/detail/148-1482210_listen-deezer-logo.png"alt="deezer logo"></img></a>  
+                </div>
             </div>
             </section>
             <section id="video">
