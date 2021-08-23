@@ -1,5 +1,5 @@
 # iluvdolfnz (electronic music artist) 
 
-Simple website using React.js and React Bootstrap to link to artist projects with embedded Spotify album.  
+Landing page for music artist using React and React Bootstrap, with other artist projects and embedded Spotify album. Published using Github Pages.
 
-Under construction.
+https://iluvdolfinz.com/
