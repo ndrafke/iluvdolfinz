@@ -62,11 +62,12 @@ function Iluvdolfinz (){
             <div id="about">
               <div> </div>
               <div> </div>
-                <h5>WTF is iluvdolfinz?</h5>
+                <h5>What exactly is iluvdolfinz?</h5>
                 <p className="bio">iluvdolfinz formed spontaneously in 2006, a result of several quantum fluctuations. Three unreleased albums were produced in the following years, with some songs making appearances online via MySpace, YouTube, and PureVolume. After lying dormant for many years, iluvdolfinz re-emerged with a new full-length album, 'Brain Slop', which was produced, published and released via online streaming platforms in 2021. iluvdolfinz is influenced by chaos, impulse, time-travel, videotape, motion, disorder, and delusions of grandeur. The name "iluvdolfinz" was created as a joke that stuck, and is in reference to nothing. </p>
                 <div> </div>
-                <h6>Follow iluvdolfinz:</h6>
+                
 <div className="button-box">
+<h6>Follow iluvdolfinz:</h6>
   <div>
   <a href="https://twitter.com/iluvdolfinz_?ref_src=twsrc%5Etfw" target="_blank"><img id="twitter-logo" src="https://www.vhv.rs/dpng/d/211-2110922_transparent-background-twitter-logo-hd-png-download.png" alt="twitter logo"></img></a>
   </div>
@@ -83,6 +84,7 @@ function Iluvdolfinz (){
 <a href="https://www.facebook.com/iluvdolfinz" target="_blank"><img id="fb-logo" src="https://i.pinimg.com/564x/63/a2/31/63a231592efca78f2bcbc02267eb37be.jpg" alt="facebook logo"></img></a>
 </div>
   </div>
+  <div> </div>
 </div>
             </div>
             
